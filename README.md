@@ -7,42 +7,130 @@ This project comprehensively analyses coffee sales data from 2019 to 2022, focus
 #### Tools and Dataset
       Microsoft Excel 2019
 
-The Key Performance Indicators (KPIs) of this analysis include:
-
-##### 1. Total sales over time to uncover seasonal trends and year-over-year growth.
-##### 2. Customer segmentation to identify the highest-purchasing customers and explore the impact of loyalty programs.
-##### 3. Product performance analysis highlights top-selling coffee types, sizes, and underperforming products.
-##### 4. Geographical sales distribution to assess how different countries contribute to overall revenue.
-
-### Coffee Sales Dashboard Insights
-
-This analysis provides valuable insights into coffee sales across several key dimensions such as total sales over time, customer loyalty, product performance, and sales distribution by country.
+### Coffee Sales Data Analysis Project Report
 
 ---
 
-### 1. **Total Sales Over Time (2019-2022)**
-   - The dashboard shows a **steady increase in total sales** from 2019 to 2022, with visible seasonal fluctuations.
-   June consistently appears as the highest sales month, possibly due to seasonal demand or promotions, while January and February are consistently lower in sales, likely affected by post-holiday slowdowns.
-   - Overall, the sales trend is upward, indicating business growth over the years.
+### 1. **Introduction**
 
-### 2. **Product Performance by Coffee Type**
-   - Among the coffee types, **Arabica and Robusta** dominate the sales. These types are the most popular and consistently show higher sales volumes.
-   - **Liberica and Excelsa** have comparatively lower sales, which may indicate niche or less popular customer preferences. The business could explore targeted marketing or product adjustments for these varieties.
+This project is a comprehensive **Exploratory Data Analysis (EDA)** of coffee sales data from 2019 to 2022. The primary aim is to uncover patterns, customer behaviors, product performance, and trends that can drive business decisions and enhance sales strategies. This analysis provides insights into the overall sales performance, top customers, and product preferences, which can be crucial for optimizing business operations.
 
-### 3. **Sales by Product Size**
-   - The most popular product sizes are **0.5 kg and 1.0 kg**, suggesting that customers prefer medium-sized coffee packages. **Smaller (0.2 kg) and larger (2.5 kg) sizes** have fewer sales, which may reflect customer consumption habits or price sensitivity.
-
-### 4. **Customer Loyalty and Top Customers**
-   - **Top 5 customers** (e.g., Don Flintiff, Nealson Cuttler) are highlighted, with sales contributions from these high-value customers. These loyal customers contribute significantly to revenue, which indicates that targeted loyalty programs or rewards could enhance retention.
-   - Customers with **loyalty cards** tend to have higher purchasing behavior, reinforcing the importance of loyalty programs in driving repeat business.
-
-### 5. **Sales by Country**
-   - **United States and the United Kingdom** lead the sales distribution by country, with Ireland trailing behind. This suggests that most business revenue is concentrated in these two regions. Expansion efforts or localized marketing strategies could help grow sales in less-performing areas like Ireland.
+This report covers the entire process, from **dataset preparation and cleaning** to **visualization, reporting, and deriving key business insights**.
 
 ---
 
-### Business Recommendations:
-1. **Increase Promotions in Low-Sales Months**: To boost sales during these slow months, focus on promotional campaigns in January and February.
-2. **Promote Loyalty Programs**: Strengthening the loyalty program by offering targeted rewards to top customers can drive higher repeat purchases.
-3. **Optimize Product Offering**: Given the popularity of medium-sized packages (0.5 kg and 1.0 kg), focusing more on these sizes while phasing out less popular ones might be beneficial.
-4. **Niche Coffee Types**: Targeted marketing for Liberica and Excelsa coffee types could increase popularity. Alternatively, these products could be offered in limited, seasonal promotions.
+### 2. **Dataset Overview**
+
+The dataset includes the following key attributes:
+- **Order Date**: The date each order was placed.
+- **Product Information**: Type of coffee, roast type, and package size.
+- **Customer Information**: Loyalty card status and geographical location (countries).
+- **Sales Information**: Quantity sold, revenue generated from each order.
+
+This dataset is a rich source of information for analyzing coffee sales patterns, customer segmentation, and product performance.
+
+---
+
+### 3. **Data Cleaning Process**
+
+Before conducting the analysis, it was crucial to clean and prepare the dataset. Here are the key steps involved in the data cleaning process:
+
+#### a. **Handling Missing Values**
+   - Missing values were identified in the sales and customer details.
+   - Numeric fields (such as sales quantities) were imputed using the median to prevent skewing the data.
+   - Missing categorical values (such as coffee types or loyalty card status) were categorized as "Unknown."
+
+#### b. **Removing Duplicates**
+   - Checked for duplicate rows in customer and order data.
+   - Removed duplicate entries to ensure the analysis reflects unique transactions and customer interactions.
+
+#### c. **Correcting Data Types**
+   - Ensured that date fields were correctly formatted as `DateTime`.
+   - Converted numerical fields to the appropriate data types (e.g., quantities and sales values as floats).
+
+#### d. **Dealing with Outliers**
+   - Identified and handled outliers in sales amounts using interquartile range (IQR) methods.
+   - Extreme outliers, such as extraordinarily high or low sales values, were investigated and adjusted if necessary to avoid misleading trends.
+
+#### e. **Standardizing Formats**
+   - Standardized text formats (e.g., making product names consistent) to facilitate proper grouping and analysis.
+
+---
+
+### 4. **Data Visualization and Reporting**
+
+To extract valuable insights from the dataset, various visualizations were created using **Power BI**. These visualizations help to understand sales performance, product popularity, and customer behavior across different dimensions.
+
+#### a. **Total Sales Over Time**
+   - A line graph showing the monthly total sales from 2019 to 2022 was created to identify trends and seasonality.
+   - **Key Insight**: Sales steadily increased over the years, with **June consistently showing the highest sales**, likely driven by seasonal promotions. **January and February** showed the lowest sales, suggesting a post-holiday slowdown.
+
+#### b. **Product Performance by Coffee Type**
+   - A bar chart displaying sales by coffee type (e.g., Arabica, Robusta, Liberica, Excelsa).
+   - **Key Insight**: **Arabica and Robusta** were the most popular coffee types, accounting for the largest portion of sales, while **Liberica and Excelsa** had lower sales volumes, suggesting they cater to niche markets.
+
+#### c. **Sales by Product Size**
+   - Sales were visualized by product size (0.2 kg, 0.5 kg, 1.0 kg, and 2.5 kg).
+   - **Key Insight**: **0.5 kg and 1.0 kg packages** were the most popular, indicating that customers prefer medium-sized purchases. Smaller and larger sizes performed less well.
+
+#### d. **Customer Loyalty Analysis**
+   - A pie chart showing the percentage of sales contributed by loyalty card holders versus non-loyalty card holders.
+   - **Key Insight**: Customers with **loyalty cards** made more frequent and higher-value purchases, suggesting that expanding loyalty programs could drive repeat business.
+
+#### e. **Sales by Country**
+   - A geographical map was used to illustrate sales distribution by country (e.g., United States, United Kingdom, Ireland).
+   - **Key Insight**: The **United States and United Kingdom** dominated the sales, while **Ireland** contributed a smaller share. This information can guide localized marketing strategies to boost sales in underperforming regions.
+
+#### f. **Top Purchasing Customers**
+   - A table highlighting the top 5 customers based on total sales value.
+   - **Key Insight**: A small percentage of customers contribute significantly to overall revenue, indicating that personalized marketing and exclusive offers could help retain and grow this high-value customer segment.
+
+---
+
+### 5. **Key Insights and Business Recommendations**
+
+Based on the analysis, the following key insights and recommendations were derived:
+
+#### a. **Increase Promotions in Low-Sales Months**
+   - January and February consistently show lower sales volumes. To combat this, the business could implement seasonal promotions, discounts, or marketing campaigns targeting this slow period.
+
+#### b. **Target Customer Loyalty Programs**
+   - High-value customers and those with loyalty cards significantly contribute to overall sales. Expanding loyalty programs with personalized rewards and offers could increase customer retention and encourage repeat purchases.
+
+#### c. **Focus on Popular Product Sizes**
+   - The 0.5 kg and 1.0 kg packages are the most popular. The business should focus on these sizes in its marketing efforts and possibly discontinue less popular sizes like 2.5 kg.
+
+#### d. **Boost Sales in Underperforming Countries**
+   - Sales are concentrated in the United States and United Kingdom, while Ireland lags behind. Implementing localized promotions or exploring partnerships with coffee retailers in Ireland could help grow the market share there.
+
+#### e. **Revise Underperforming Product Offerings**
+   - Liberica and Excelsa coffee types, as well as smaller and larger package sizes, performed poorly. The company could either improve the taste and marketing of these products or consider reducing their presence in stores.
+
+---
+
+### 6. **Conclusion**
+
+This **Exploratory Data Analysis (EDA)** of coffee sales data provides valuable insights into business performance, customer preferences, and product trends. The findings from this analysis can help inform marketing strategies, optimize product offerings, and enhance customer loyalty programs. By focusing on the identified areas of opportunity, the business can maximize its profitability and continue to grow in an increasingly competitive market.
+
+---
+
+### 7. **Repository Structure**
+
+To ensure the project is easy to understand and navigate, the following structure is recommended for your GitHub repository:
+
+```text
+coffee-sales-data-analysis/
+│
+├── README.md                # Project overview and key findings
+├── Data/
+│   ├── raw_sales_data.csv    # Original raw data
+│   └── cleaned_sales_data.csv  # Cleaned and prepared data
+├── Notebooks/
+│   └── data_cleaning_analysis.ipynb  # Data cleaning and analysis scripts
+├── Reports/
+│   ├── coffeeOrdersProject.pdf   # Full analysis report
+├── Visuals/
+│   ├── total_sales_over_time.png # Visualization 1
+│   ├── product_performance.png   # Visualization 2
+│   └── sales_by_country.png      # Visualization 3
+└── Power_BI_Dashboard.pbix       # Power BI dashboard file
