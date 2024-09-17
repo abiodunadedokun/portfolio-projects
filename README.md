@@ -6,8 +6,8 @@ This project comprehensively analyses coffee sales data from 2019 to 2022, focus
 
 The Key Performance Indicators (KPIs) of this analysis include:
 
-### Total sales over time to uncover seasonal trends and year-over-year growth.
-### Customer segmentation to identify the highest-purchasing customers and explore the impact of loyalty programs.
-### Product performance analysis highlights top-selling coffee types and sizes, along with underperforming products.
-### Geographical sales distribution to assess how different countries contribute to overall revenue.
+##### Total sales over time to uncover seasonal trends and year-over-year growth.
+##### Customer segmentation to identify the highest-purchasing customers and explore the impact of loyalty programs.
+##### Product performance analysis highlights top-selling coffee types, sizes, and underperforming products.
+##### Geographical sales distribution to assess how different countries contribute to overall revenue.
 
