@@ -4,7 +4,7 @@ This repository contains my Data Analysis / Data Science portfolio projects.
 
 This project comprehensively analyses coffee sales data from 2019 to 2022, focusing on identifying key sales trends, understanding customer behavior, and evaluating product performance. The primary objective is to gain actionable insights to improve business strategies, optimize sales, and enhance customer engagement.
 
-#### Tools and Dataset
+#### Tool
       Microsoft Excel 2019
 
 ### Coffee Sales Data Analysis Project Report
@@ -26,8 +26,6 @@ The dataset includes the following key attributes:
 - **Product Information**: Type of coffee, roast type, and package size.
 - **Customer Information**: Loyalty card status and geographical location (countries).
 - **Sales Information**: Quantity sold, revenue generated from each order.
-
-This dataset is a rich source of information for analyzing coffee sales patterns, customer segmentation, and product performance.
 
 ---
 
