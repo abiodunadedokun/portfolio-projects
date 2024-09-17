@@ -33,11 +33,11 @@ This dataset is a rich source of information for analyzing coffee sales patterns
 
 ### 3. **Data Cleaning Process**
 
-Before conducting the analysis, it was crucial to clean and prepare the dataset. Here are the key steps involved in the data cleaning process:
+Before conducting the analysis, it was crucial to clean and prepare the dataset. Here are the key steps involved in the data-cleaning process:
 
 #### a. **Handling Missing Values**
    - Missing values were identified in the sales and customer details.
-   - Numeric fields (such as sales quantities) were imputed using the median to prevent skewing the data.
+   - Numeric fields (such as sales quantities) were imputed using the median to prevent data skewing.
    - Missing categorical values (such as coffee types or loyalty card status) were categorized as "Unknown."
 
 #### b. **Removing Duplicates**
@@ -59,7 +59,7 @@ Before conducting the analysis, it was crucial to clean and prepare the dataset.
 
 ### 4. **Data Visualization and Reporting**
 
-To extract valuable insights from the dataset, various visualizations were created using **Power BI**. These visualizations help to understand sales performance, product popularity, and customer behavior across different dimensions.
+Various visualizations were created using Excel to extract valuable insights from the dataset. These visualizations help to understand sales performance, product popularity, and customer behavior across different dimensions.
 
 #### a. **Total Sales Over Time**
    - A line graph showing the monthly total sales from 2019 to 2022 was created to identify trends and seasonality.
@@ -101,7 +101,7 @@ Based on the analysis, the following key insights and recommendations were deriv
    - The 0.5 kg and 1.0 kg packages are the most popular. The business should focus on these sizes in its marketing efforts and possibly discontinue less popular sizes like 2.5 kg.
 
 #### d. **Boost Sales in Underperforming Countries**
-   - Sales are concentrated in the United States and United Kingdom, while Ireland lags behind. Implementing localized promotions or exploring partnerships with coffee retailers in Ireland could help grow the market share there.
+   - Sales are concentrated in the United States and the United Kingdom, while Ireland lags behind. Implementing localized promotions or exploring partnerships with coffee retailers in Ireland could help grow the market share there.
 
 #### e. **Revise Underperforming Product Offerings**
    - Liberica and Excelsa coffee types, as well as smaller and larger package sizes, performed poorly. The company could either improve the taste and marketing of these products or consider reducing their presence in stores.
@@ -114,23 +114,6 @@ This **Exploratory Data Analysis (EDA)** of coffee sales data provides valuable 
 
 ---
 
-### 7. **Repository Structure**
 
-To ensure the project is easy to understand and navigate, the following structure is recommended for your GitHub repository:
 
-```text
-coffee-sales-data-analysis/
-│
-├── README.md                # Project overview and key findings
-├── Data/
-│   ├── raw_sales_data.csv    # Original raw data
-│   └── cleaned_sales_data.csv  # Cleaned and prepared data
-├── Notebooks/
-│   └── data_cleaning_analysis.ipynb  # Data cleaning and analysis scripts
-├── Reports/
-│   ├── coffeeOrdersProject.pdf   # Full analysis report
-├── Visuals/
-│   ├── total_sales_over_time.png # Visualization 1
-│   ├── product_performance.png   # Visualization 2
-│   └── sales_by_country.png      # Visualization 3
-└── Power_BI_Dashboard.pbix       # Power BI dashboard file
+
