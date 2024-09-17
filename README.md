@@ -25,9 +25,9 @@ This report covers the entire process, from **dataset preparation and cleaning**
 ### 2. **Dataset Overview**
 
 The dataset includes the following key attributes:
-- **Order Date**: The date each order was placed.
-- **Product Information**: Type of coffee, roast type, and package size.
-- **Customer Information**: Loyalty card status and geographical location (countries).
+- **Order Date**: Order ID, Order date, Quantity ordered.
+- **Product Information**: Product ID, Type of coffee, roast type, and package size.
+- **Customer Information**: Customer name, E-mail, Phone number, Address, Loyalty card status and geographical location (countries).
 - **Sales Information**: Quantity sold, revenue generated from each order.
 
 ---
