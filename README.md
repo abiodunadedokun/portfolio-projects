@@ -1,6 +1,6 @@
 This repository contains my Data Analysis / Data Science portfolio projects. 
 
-# Project 1: Exploratory Data Analysis
+# Project 1: Exploratory Data Analysis of coffee sales data.
 
 This project comprehensively analyses coffee sales data from 2019 to 2022, focusing on identifying key sales trends, understanding customer behavior, and evaluating product performance. The primary objective is to gain actionable insights to improve business strategies, optimize sales, and enhance customer engagement.
 
@@ -66,7 +66,7 @@ Various visualizations were created using Excel to extract valuable insights fro
    - **Key Insight**: Sales steadily increased over the years, with **June consistently showing the highest sales**, likely driven by seasonal promotions. **January and February** showed the lowest sales, suggesting a post-holiday slowdown.
 
 #### b. **Product Performance by Coffee Type**
-   - A bar chart displaying sales by coffee type (e.g., Arabica, Robusta, Liberica, Excelsa).
+   - A slicer displaying sales by coffee type (e.g., Arabica, Robusta, Liberica, Excelsa).
    - **Key Insight**: **Arabica and Robusta** were the most popular coffee types, accounting for the largest portion of sales, while **Liberica and Excelsa** had lower sales volumes, suggesting they cater to niche markets.
 
 #### c. **Sales by Product Size**
@@ -74,11 +74,11 @@ Various visualizations were created using Excel to extract valuable insights fro
    - **Key Insight**: **0.5 kg and 1.0 kg packages** were the most popular, indicating that customers prefer medium-sized purchases. Smaller and larger sizes performed less well.
 
 #### d. **Customer Loyalty Analysis**
-   - A pie chart showing the percentage of sales contributed by loyalty card holders versus non-loyalty card holders.
+   - A slicer showing the impact of sales contributed by loyalty card holders versus non-loyalty card holders.
    - **Key Insight**: Customers with **loyalty cards** made more frequent and higher-value purchases, suggesting that expanding loyalty programs could drive repeat business.
 
 #### e. **Sales by Country**
-   - A geographical map was used to illustrate sales distribution by country (e.g., United States, United Kingdom, Ireland).
+   - A bar chart was used to illustrate sales distribution by country (e.g., United States, United Kingdom, Ireland).
    - **Key Insight**: The **United States and United Kingdom** dominated the sales, while **Ireland** contributed a smaller share. This information can guide localized marketing strategies to boost sales in underperforming regions.
 
 #### f. **Top Purchasing Customers**
