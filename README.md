@@ -117,7 +117,7 @@ This Exploratory Data Analysis (EDA) of coffee sales data provides valuable insi
 
 ---
 
-# Project 2: Exploratory Data Analysis of Human Resources (HR) data.
+# Project 2: Human Resources (HR) Exploratory Data Analysis.
 
 [HR.Data.csv](https://github.com/user-attachments/files/17042874/HR.Data.csv)
 [hr_report.pdf](https://github.com/user-attachments/files/17042873/hr_report.pdf)
@@ -136,12 +136,12 @@ This Exploratory Data Analysis (EDA) of coffee sales data provides valuable insi
 
 ### 1. **Introduction**
 
-This project provides an in-depth exploration of human resources data using SQL for analysis and Power BI for dynamic visualizations. It uncovers critical insights into key HR metrics such as employee turnover, diversity, recruitment efficiency, and performance evaluations. By creating interactive dashboards, the analysis equips HR professionals with the tools to make data-driven decisions and formulate strategic workforce planning initiatives. These insights are crucial for enhancing organizational effectiveness, optimizing talent management, and driving informed business strategies. This report covers the entire process, from **dataset cleaning** to **visualization, reporting, and deriving key business insights**.
+This project provides an in-depth exploration of human resources data using SQL for analysis and Power BI for dynamic visualizations. It uncovers critical insights into key HR metrics such as employee turnover, diversity, recruitment efficiency, and performance evaluations. By creating interactive dashboards, the analysis equips HR professionals with the tools to make data-driven decisions and formulate strategic workforce planning initiatives. These insights are crucial for enhancing organizational effectiveness, optimizing talent management, and driving informed business strategies. This report covers the entire process, from **dataset cleaning** to **visualization, reporting, and deriving key indicators**.
 
 #### Tool
       MS SQL SERVER 2022 and MS POWER BI
 
-### 2. **Dataset Overview**[HR Data.csv](https://github.com/user-attachments/files/17043154/HR.Data.csv)
+### 2. **Dataset Overview** [HR Data.csv](https://github.com/user-attachments/files/17043154/HR.Data.csv)
 
 The dataset includes the following key attributes:
 
