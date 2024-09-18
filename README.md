@@ -1,5 +1,5 @@
 
-This is a repository for my Data Analysis / Data Science portfolio projects. 
+This is a repository for my Data Analysis / Data Science portfolio projects.
 
 # Project 1: Exploratory Data Analysis of coffee sales data.
 [CoffeeRawData.xlsx](https://github.com/user-attachments/files/17027033/CoffeeRawData.xlsx)
@@ -141,8 +141,7 @@ This project provides an in-depth exploration of human resources data using SQL 
 #### Tool
       MS SQL SERVER 2022 and MS POWER BI
 
-### 2. **Dataset Overview**
-      The data contains 22,000 Human Resource records from 2000 to 2020. [HR Data.csv](https://github.com/user-attachments/files/17043154/HR.Data.csv)
+### 2. **Dataset Overview**[HR Data.csv](https://github.com/user-attachments/files/17043154/HR.Data.csv)
 
 The dataset includes the following key attributes:
 
