@@ -141,14 +141,8 @@ This project provides an in-depth exploration of human resources data using SQL 
 #### Tool
       MS SQL SERVER 2022 and MS POWER BI
 
-### Data Source
+### 2. **Dataset Overview**
       The data contains 22,000 Human Resource records from 2000 to 2020. [HR Data.csv](https://github.com/user-attachments/files/17043154/HR.Data.csv)
-
-### 2. **Dataset Overview**
-
-Here’s a format for presenting the dataset overview for your Human Resources dataset project, based on the structure you mentioned:
-
-### 2. **Dataset Overview**
 
 The dataset includes the following key attributes:
 
@@ -221,13 +215,12 @@ Demographic and Employment Insights:
 11. Over the years, there has been an increase in employee hiring counts.
 ---
 
-### 6. **Conclusion**
-
-Here's how you can adapt the conclusion for your HR data analysis project:
-
-### 6. **Conclusion**
+### 5. **Conclusion**
 
 This Exploratory Data Analysis (EDA) of the HR dataset provides valuable insights into employee turnover, diversity metrics, and overall workforce performance. The findings can inform HR policies, improve recruitment strategies, and enhance employee retention programs. By addressing the identified trends in turnover and performance, the organization can foster a more inclusive and productive work environment, leading to improved employee satisfaction and long-term success. These insights are crucial for optimizing workforce management and driving organizational growth in an increasingly competitive landscape.
+
+
+
 ---
 
 
