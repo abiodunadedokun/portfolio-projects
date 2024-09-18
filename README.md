@@ -1,9 +1,11 @@
-This repository contains my Data Analysis / Data Science portfolio projects. 
+
+This is a repository for my Data Analysis / Data Science portfolio projects. 
 
 # Project 1: Exploratory Data Analysis of coffee sales data.
 [CoffeeRawData.xlsx](https://github.com/user-attachments/files/17027033/CoffeeRawData.xlsx)
 [CoffeeProject.xlsx](https://github.com/user-attachments/files/17027028/CoffeeProject.xlsx)
 [CoffeeDashboard.pdf](https://github.com/user-attachments/files/17026913/CoffeeDshboard.pdf)
+[Coffee_Sales_Analysis_Presentation_Styled.pptx](https://github.com/user-attachments/files/17040331/Coffee_Sales_Analysis_Presentation_Styled.pptx)
 
 This project comprehensively analyses coffee sales data from 2019 to 2022, focusing on identifying key sales trends, understanding customer behavior, and evaluating product performance. The primary objective is to gain actionable insights to improve business strategies, optimize sales, and enhance customer engagement.
 
